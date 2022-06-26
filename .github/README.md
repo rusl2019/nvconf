@@ -1,5 +1,24 @@
 # NeoVIM config file
 
+## Prerequisites
+
+- [neovim v0.7.0 or above](https://neovim.io)
+- [nodejs/npm](https://nodejs.org)
+- [tree-sitter](https://tree-sitter.github.io/tree-sitter)
+- [nerd-fonts](https://www.nerdfonts.com)
+
+## Installation
+
+```bash
+rm -rf ~/.conf/nvim ~/.local/share/nvim ~/.cache/nvim
+git clone --depth 1 https://github.com/rusl2019/nvconf.git; nvim
+```
+
+## Screenshot
+
+![screenshot1](img/Screenshot_2022-06-26_16-57-14.png)
+![screenshot2](img/Screenshot_2022-06-26_17-11-38.png)
+
 ## Plugin list
 
 - [packer](https://github.com/wbthomason/packer.nvim)
