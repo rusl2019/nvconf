@@ -11,7 +11,8 @@
 
 ```bash
 rm -rf ~/.conf/nvim ~/.local/share/nvim ~/.cache/nvim
-git clone --depth 1 https://github.com/rusl2019/nvconf.git; nvim
+git clone --depth 1 https://github.com/rusl2019/nvconf.git ~/.config/nvim
+nvim
 ```
 
 ## Screenshot
